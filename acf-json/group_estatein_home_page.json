@@ -1,0 +1,338 @@
+{
+    "key": "group_estatein_home_page",
+    "title": "Estatein Home Page CMS",
+    "fields": [
+        {
+            "key": "field_tab_home_hero",
+            "label": "Hero Section",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_home_hero_title",
+            "label": "Hero Title",
+            "name": "home_hero_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Main hero heading (e.g. Discover Your Dream Property with Estatein)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Discover Your Dream Property with Estatein",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_home_hero_desc",
+            "label": "Hero Description",
+            "name": "home_hero_desc",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Hero paragraph \/ intro description",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_home_hero_image",
+            "label": "Hero Skyscraper Image",
+            "name": "home_hero_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload custom hero visual",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_home_hero_btn1_text",
+            "label": "Button 1 Label",
+            "name": "home_hero_btn1_text",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Primary CTA button text (e.g. Learn More)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Learn More",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_home_hero_btn1_url",
+            "label": "Button 1 Link",
+            "name": "home_hero_btn1_url",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Button 1 URL destination",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "\/about-us\/",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_home_hero_btn2_text",
+            "label": "Button 2 Label",
+            "name": "home_hero_btn2_text",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Secondary CTA button text (e.g. Browse Properties)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Browse Properties",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_home_hero_btn2_url",
+            "label": "Button 2 Link",
+            "name": "home_hero_btn2_url",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Button 2 URL destination",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "\/properties\/",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_tab_home_stats",
+            "label": "Key Statistics",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_home_stat_1_val",
+            "label": "Stat 1 Number",
+            "name": "home_stat_1_val",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Stat 1 value (e.g. 200+)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "16.66",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "200+",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_home_stat_1_label",
+            "label": "Stat 1 Label",
+            "name": "home_stat_1_label",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Stat 1 label (e.g. Happy Customers)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "16.66",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Happy Customers",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_home_stat_2_val",
+            "label": "Stat 2 Number",
+            "name": "home_stat_2_val",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Stat 2 value (e.g. 10k+)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "16.66",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "10k+",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_home_stat_2_label",
+            "label": "Stat 2 Label",
+            "name": "home_stat_2_label",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Stat 2 label (e.g. Properties For Clients)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "16.66",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Properties For Clients",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_home_stat_3_val",
+            "label": "Stat 3 Number",
+            "name": "home_stat_3_val",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Stat 3 value (e.g. 16+)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "16.66",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "16+",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_home_stat_3_label",
+            "label": "Stat 3 Label",
+            "name": "home_stat_3_label",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Stat 3 label (e.g. Years of Experience)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "16.66",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Years of Experience",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-home.php"
+            }
+        ],
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "Seamless tabbed CMS for Estatein Home Page",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1791751375
+}

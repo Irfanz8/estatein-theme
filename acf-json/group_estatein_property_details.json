@@ -1,0 +1,673 @@
+{
+    "key": "group_estatein_property_details",
+    "title": "Estatein Property Details",
+    "fields": [
+        {
+            "key": "field_tab_basic_details",
+            "label": "Basic Details",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_property_price",
+            "label": "Price",
+            "name": "property_price",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Enter the listing price (e.g. $1,250,000)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "$1,250,000",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_location",
+            "label": "Location",
+            "name": "property_location",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Enter the property location (e.g. Malibu, California)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Malibu, California",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_type",
+            "label": "Property Type",
+            "name": "property_type",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Property type (e.g. Villa, Penthouse, Cottage)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Villa",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_badge",
+            "label": "Card Subtitle \/ Category Badge",
+            "name": "property_badge",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Subtitle shown on catalog card (e.g. Coastal Escapes - Where the Waves Beckon)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Coastal Escapes - Where the Waves Beckon",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_bedrooms",
+            "label": "Bedrooms",
+            "name": "property_bedrooms",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Number of bedrooms (e.g. 04 or 4-Bedroom)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "04",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_bathrooms",
+            "label": "Bathrooms",
+            "name": "property_bathrooms",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Number of bathrooms (e.g. 03 or 3-Bathroom)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "03",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_area",
+            "label": "Area \/ Size",
+            "name": "property_area",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Total area (e.g. 2,500 Sq. Ft)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "2,500 Sq. Ft",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_description",
+            "label": "Description",
+            "name": "property_description",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Enter full property description (shown on detail overview card and property listings)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Discover your own piece of paradise with this stunning property. Tucked away in an exclusive enclave, offering breathtaking views, unmatched privacy, and state-of-the-art modern architectural design.",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_tab_photo_gallery",
+            "label": "Photo Gallery",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_property_image_1",
+            "label": "Gallery Photo 1",
+            "name": "property_image_1",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload gallery photo 1",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_property_image_2",
+            "label": "Gallery Photo 2",
+            "name": "property_image_2",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload gallery photo 2",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_property_image_3",
+            "label": "Gallery Photo 3",
+            "name": "property_image_3",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload gallery photo 3",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_property_image_4",
+            "label": "Gallery Photo 4",
+            "name": "property_image_4",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload gallery photo 4",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_property_image_5",
+            "label": "Gallery Photo 5",
+            "name": "property_image_5",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload gallery photo 5",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_property_image_6",
+            "label": "Gallery Photo 6",
+            "name": "property_image_6",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload gallery photo 6",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_property_gallery_urls",
+            "label": "Additional Gallery Image URLs",
+            "name": "property_gallery_urls",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Paste additional image URLs here (one URL per line) if you prefer external links or have more photos.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "https:\/\/images.unsplash.com\/...\nhttps:\/\/images.unsplash.com\/...",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_property_image_url",
+            "label": "Fallback Main Image URL",
+            "name": "property_image_url",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "Optional external image URL if no Featured Image is uploaded",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "https:\/\/images.unsplash.com\/...",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_tab_features_amenities",
+            "label": "Key Features &amp; Amenities",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_property_amenities",
+            "label": "Amenities &amp; Features",
+            "name": "property_amenities",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "0": false,
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_tab_pricing_breakdown",
+            "label": "Pricing Breakdown",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_property_transfer_tax",
+            "label": "Property Transfer Tax",
+            "name": "property_transfer_tax",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Estimated transfer tax (e.g. $25,000)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "$25,000",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_legal_fees",
+            "label": "Legal &amp; Title Fees",
+            "name": "property_legal_fees",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Estimated attorney \/ legal fees (e.g. $3,500)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "$3,500",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_inspection_fee",
+            "label": "Home Inspection Fee",
+            "name": "property_inspection_fee",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Estimated inspection fee (e.g. $750)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "$750",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_insurance_fee",
+            "label": "Property Insurance (Annual)",
+            "name": "property_insurance_fee",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Estimated annual property insurance (e.g. $2,400)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "$2,400",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_monthly_tax",
+            "label": "Monthly Property Taxes",
+            "name": "property_monthly_tax",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Monthly property tax estimate (e.g. $1,250)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "$1,250",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_hoa_fee",
+            "label": "Monthly HOA Fees",
+            "name": "property_hoa_fee",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Monthly HOA \/ maintenance fees (e.g. $450)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "$450",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_down_payment",
+            "label": "Down Payment",
+            "name": "property_down_payment",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Estimated down payment (e.g. $250,000)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "$250,000",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_closing_costs",
+            "label": "Closing Costs",
+            "name": "property_closing_costs",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Estimated total closing costs (e.g. $31,650)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "$31,650",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_monthly_mortgage",
+            "label": "Monthly Mortgage Payment",
+            "name": "property_monthly_mortgage",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Estimated total monthly mortgage (e.g. $5,420)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "$5,420",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_property_principal_interest",
+            "label": "Principal &amp; Interest Breakdown",
+            "name": "property_principal_interest",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "0": false,
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "property"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "Comprehensive custom fields for Estatein Real Estate property listings",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1791751375
+}

@@ -1,0 +1,88 @@
+{
+    "key": "group_estatein_properties_page",
+    "title": "Estatein Properties Catalog Page CMS",
+    "fields": [
+        {
+            "key": "field_tab_properties_hero",
+            "label": "Hero &amp; Search Header",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_properties_hero_title",
+            "label": "Catalog Title",
+            "name": "properties_hero_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Main headline for Properties catalog page (e.g. Find Your Dream Property)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Find Your Dream Property",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_properties_hero_desc",
+            "label": "Catalog Description",
+            "name": "properties_hero_desc",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Intro paragraph introducing the property search and listing catalog",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Welcome to Estatein, where your dream property awaits in every corner of our beautiful world. Explore our curated selection of properties, each offering a unique story and a chance to redefine your life. With categories to suit every dreamer, your journey begins here.",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-properties.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "Seamless tabbed CMS for Estatein Properties Catalog Page",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1791751375
+}

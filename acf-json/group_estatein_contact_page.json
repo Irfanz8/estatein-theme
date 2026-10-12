@@ -1,0 +1,166 @@
+{
+    "key": "group_estatein_contact_page",
+    "title": "Estatein Contact Us Page CMS",
+    "fields": [
+        {
+            "key": "field_tab_contact_intro",
+            "label": "Hero &amp; Intro",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_contact_hero_title",
+            "label": "Contact Title",
+            "name": "contact_hero_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Main headline for Contact Us (e.g. Get in Touch with Estatein)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Get in Touch with Estatein",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_contact_hero_desc",
+            "label": "Contact Intro Description",
+            "name": "contact_hero_desc",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Intro paragraph for Contact page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Welcome to Estatein's Contact Us page. We're here to assist you with any inquiries, requests, or feedback you may have. Whether you're looking to buy or sell a property, explore investment opportunities, or simply want to learn more about our services, we're just a message away.",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_tab_contact_channels",
+            "label": "Communication Channels",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_contact_email",
+            "label": "Support Email Address",
+            "name": "contact_email",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Primary contact email address (e.g. info@estatein.com)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "info@estatein.com",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_contact_phone",
+            "label": "Direct Phone Number",
+            "name": "contact_phone",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Main phone contact number (e.g. +1 (123) 456-7890)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "+1 (123) 456-7890",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_contact_hq_address",
+            "label": "Headquarters Address",
+            "name": "contact_hq_address",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Main office location (e.g. Main Headquarters, Los Angeles)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33.33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Main Headquarters, Los Angeles",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-contact-us.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "Seamless tabbed CMS for Estatein Contact Us Page",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1791751375
+}
